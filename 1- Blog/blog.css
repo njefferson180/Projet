@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #fff;
+}
+nav {
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+}
+
+/******** ENTETE *******/
+.menu .container {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 0 60px;
+}
+.container .trait { /******** deux trait horizontal ********/
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.container .trait .bar-nav {
+	height: 4px;
+	width: 30px;
+	background: #000;
+	margin: 5px 0;
+}
+.container .title { /******** titre *******/
+	margin-left: 20px;
+}
+.container .title a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+.container .links { /********* Liens ********/
+	margin-left: 150px;
+}
+.container .links a {
+	color: grey;
+	font-weight: bold;
+	padding-right: 45px;
+	font-family: 'Arial';
+	font-size: 14px;
+	text-decoration: none;
+}
+.container .links a:hover, .container .links a:focus{
+	color: #000;
+	transition: all 0.3s ease-in;
+}
+.container .search { /******** barre de recherche ********/
+	margin-left: 400px;
+}
+.search input[type="search"]{
+	border: none;
+	padding: 5px 10px;
+	border-radius: 10px;
+	width: 70%;
+}
+.search .img-search{
+	padding-top: 5px;
+	height: 20px;
+}
+.container .image-circle { /****** interanute ******/
+	padding: 5px;
+	margin-left: 40px;
+}
+.container .internaute p {
+	font-size: 13px;
+	font-family: Arial;
+	color: #aaa;
+}
+
+/********** LA SECTION **********/
+table {
+	margin: 0 auto;
+}
+td {
+	padding: 30px 50px;
+}
+
+/******* Liens et Article du haut ******/
+.lien-du-haut a {
+	color: grey;
+	display: flex;
+	font-size: 10px;
+	top: 10px;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: 'Arial';
+	text-decoration: none;
+}
+.lien-du-haut a:hover, .lien-du-haut a:focus {
+	color: #000;
+	font-weight: bold;
+	transition: all 0.3s ease-in;
+}
+.article-du-haut {
+	margin-top: 0px;
+}
+.article-du-haut h1 {
+	font-size: 44px;
+	font-weight: normal;
+}
+.article-du-haut p {
+	color: #000;
+	font-family: 'Arial';
+	font-size: 12px;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.article-du-haut .underline {
+	text-decoration: underline;
+}
+
+/****** Liens et Article du bas *******/
+.lien-du-bas a {
+	color: grey;
+	display: flex;
+	font-size: 10px;
+	margin-top: 0px;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: 'Arial';
+	text-decoration: none;
+}
+.lien-du-bas a:hover, .lien-du-bas a:focus {
+	color: #000;
+	font-weight: bold;
+	transition: all 0.3s ease-in;
+}
+.lien-du-bas {
+	margin-top: 120px;
+}
+.article-du-bas {
+	margin-top: 130px;
+}
+.article-du-bas h2 {
+	font-size: 30px;
+	font-weight: normal;
+}
+.article-du-bas p {
+	color: #000;
+	font-family: 'Arial';
+	font-size: 12px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+table .img-woman {
+	height: 550px; 
+	width: 350px;
+	filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	position: relative;
+}
+table .overlay {
+	position: absolute;
+	bottom: 40px;
+	font-family: Arial;
+	padding-left: 50px;
+	font-size: 14px;
+	font-weight: bold;
+}
+table .overlay p {
+color: #fff;
+font-family: Arial;
+}
+table .overlay a{
+	text-decoration: none;
+	color: #fff;
+}
+table .overlay a:hover {
+	color: #000;
+	transition: all 0.3s ease-in;
+}
+.overlay .paragraphe-1 {
+	line-height: 20px;
+}
+.overlay .paragraphe-2 {
+	padding-top: 30px;
+	line-height: 50px;
+}

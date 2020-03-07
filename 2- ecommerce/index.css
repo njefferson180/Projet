@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #fff;
+}
+.container {
+	background: #fff;
+	margin: 50px auto;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+	padding: 30px 70px;
+	border-radius: 30px;
+	box-shadow: 0px 8px 30px #aaa;
+	-moz-box-shadow: 0px 8px 30px #aaa;
+	-webkit-box-shadow: 0px 8px 30px #aaa;
+}
+.container .info {
+	background: #fff;
+	padding: 80px;
+	margin: 50px 0px;
+	position: relative;
+}
+
+/******* ARTICLES (images) *********/
+.container .article {
+	background: #fbe6ce;
+	padding: 100px;
+	margin: 50px 0px;
+	position: relative;
+}
+.container .article img {
+	height: 300px;
+}
+.container .article .circle {
+	position: absolute;
+	background: #fff; 
+	border-radius: 100%;  
+	padding: 10px; 
+	margin: 85px 110px;
+	box-shadow: 0px 7px 30px #aaa;
+	-moz-box-shadow: 0px 7px 30px #aaa;
+	-webkit-box-shadow: 0px 7px 30px #aaa;
+}
+
+/******** INFORMATION ET DESCRIPTION DE L'ARTICLE *******/
+.black-divider {
+	background: #000;
+	height: 35px;
+	width: 2px;
+	position: absolute; 
+	margin-left: -15px;
+}
+.info .heading {
+	margin-top: -80px;
+}
+.info .heading .title-1 {
+	color: #2e6092;
+	font-family: 'Arial', serif;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+.info .heading .title-2 {
+	color: #3e3f41;
+	font-family: 'Arial', serif;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+.info .price {
+	color: #000;
+	font-size: 30px;
+	padding: 25px 0;
+	font-family: 'Courier New', Arial, serif;
+	letter-spacing: 3px;
+}
+.info h1 {
+	color: #3e3f41;
+	padding: 15px 0;
+	font-family: 'Arial', serif;
+	letter-spacing: 3px;
+	font-weight: normal;
+
+}
+.info h4 {
+	font-size: 15px;
+	color: #3e3f41;
+	padding: 15px 0;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.info .decription-texte {
+	color: #3e3f41;
+	font-family: 'Arial', serif;
+	font-weight: normal;
+	font-size: 14px;
+	word-spacing: 2px;
+	line-height: 30px;
+}
+
+/**************** BOUTON D'ACHAT ***********/
+.info button {
+	padding: 10px 60px;
+	margin: 20px 0;
+	border: none;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 18px;
+	background: #2e6092;
+	box-shadow: 0px 10px 20px #aaa;
+	-moz-box-shadow: 0px 10px 20px #aaa;
+	-webkit-box-shadow: 0px 10px 20px #aaa;
+	cursor: pointer;
+}
+/**** BOUTON DE QUANTITY ****/
+.bouton .bouton-right {
+	float: right;
+	margin: 20px 0;
+}
+.bouton .bouton-right a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: #aaa;
+}
+.info .bouton .bouton-right .link {
+	color: #000;
+	font-size: 16px;
+	margin-right: 25px;
+}
+.info .bouton .bouton-right .quantity {
+	padding-left: 22px;
+	color: #3e3f41;
+	font-family: 'Arial', serif;
+	font-size: 11px;
+	margin-top: 5px;
+}

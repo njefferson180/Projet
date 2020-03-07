@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #ddd;
+}
+.container {
+	background: #fff;
+	margin: 50px auto;
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+
+/************** ARTICLES *************/
+.container .article {
+	padding: 100px;
+	background: #ddd;
+	margin: 20px 10px 0px 28px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	box-shadow: -1px 2px 5px 1px #fff;
+	-moz-box-shadow: -1px 2px 5px 1px #fff;
+	-webkit-box-shadow: -1px 2px 5px 1px #fff;
+	cursor: pointer;
+}
+.container .bottom-case {
+	background: #fff;
+	margin: 0 auto;
+	width: 89.5%;
+	height: 120px;
+	margin-left: 28px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin-bottom: 40px;
+	box-shadow: 0px 10px 20px #aaa;
+	-moz-box-shadow: 0px 10px 20px #aaa;
+	-webkit-box-shadow: 0px 10px 20px #aaa;
+}
+.bottom-case .title { /**** Titre ******/
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+	font-family: arial, "sans-serif";
+	padding: 20px 18px;
+}
+.bottom-case .price { /**** Prix ****/
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	font-family: 'Arial', serif;
+	padding: 0 18px;
+}
+
+/************** BOUTON (+ -) *************/
+.bottom-case .button {
+	float: right;
+	margin-top: -28px;
+	margin-right: 30px;
+	background: #000;
+	width: 80px;
+	padding: 5px 15px;
+	border-radius: 40px;
+}
+.button a {
+	text-decoration: none;
+}
+.button a span {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.bottom-case .button .bouton-moin {
+	float: right
+}
+
+/********** COULEUR DE FONTD (ARTICLES) ***********/
+.container .ananas > .article {
+	background: #8793ec;
+}
+.container .ananas .article a > img {
+	height: 100px;
+}
+
+.container .banane > .article {
+	background: #f5ca6e;
+}
+.container .banane .article a > img {
+	height: 100px; 
+	width: 130px;
+}
+
+.container .coconut > .article {
+	background: #3adfe5;
+}
+.container .coconut .article a > img {
+	height: 120px;
+	width: 130px;
+}
+
+.container .mangue > .article {
+	background: #f985f2;
+}
+.container .mangue .article a > img {
+	height: 120px;
+}
+
+.container .orange > .article {
+	background: #92f0a6;
+}
+.container .orange .article a > img {
+	height: 120px; 
+	width: 130px;
+}
